@@ -1,6 +1,5 @@
 #Tuples in Python are immutable sequence of arbitary objects. Once created, 
-# the objects within then cannot be removed, replaced and cannot be added
-
+# the objects within then cannot be removed, replaced and cannot be added 
 myTuple = ("Norway", 4.953, 3)
 print(myTuple)
 print(type(myTuple))
@@ -26,7 +25,6 @@ print(a[2])
 print(type(a[2]))
 print(a[2][1])
 print(type(a[2][1]))
-
 
 def minmax(items):
     return min(items), max(items)
